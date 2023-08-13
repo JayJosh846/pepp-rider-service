@@ -1,0 +1,270 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Rider {
+  id             Int            @id @default(autoincrement())
+  firstName      String?
+  lastName       String?
+  email          String?         @unique
+  mobile         String?         @unique
+  password       String?
+  peppTag        String?         @unique
+  homeAddress    String?
+  workAddress    String?
+  emailVerified  Boolean        @default(false)
+  mobileVerified Boolean        @default(false)
+  enabled2FA     Boolean        @default(false)
+  enabledGoogle  Boolean        @default(false)
+  role           Role           @default(RIDER)
+  ratings        Ratings        @default(ONE)
+  status         Userstatus     @default(INACTIVE)
+  latitude       Int?
+  longitude      Int?
+  noOfRides      Int?
+  kmTraveled     Int?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  transactions   Transactions[]
+  trips          Trips[]
+  wallets        Wallets[]
+  fundWallet     FundWallet[]
+  location       Location[]
+  // emailToken     Emailverificationtoken[]
+
+}
+
+model Driver {
+  id             Int            @id @default(autoincrement())
+  firstName      String?
+  lastName       String?
+  email          String?        @unique
+  mobile         String?         @unique
+  password       String?
+  city           String?
+  peppTag        String?        @unique
+  homeAddress    String?
+  workAddress    String?
+  emailVerified  Boolean        @default(false)
+  mobileVerified Boolean        @default(false)
+  enabled2FA     Boolean        @default(false)
+  enabledGoogle  Boolean        @default(false)
+  role           Role           @default(DRIVER)
+  ratings        Ratings        @default(ONE)
+  status         Userstatus     @default(ACTIVE)
+  noOfRides      Int?
+  kmTraveled     Int?
+  about          String?
+  driverPhoto    Bytes?
+  driverLicense  Bytes?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  transactions   Transactions[]
+  trips          Trips[]
+  wallets        Wallets[]
+  location       Location[]
+
+}
+
+model Trips {
+  id           Int            @id @default(autoincrement())
+  pickUp       String
+  dropOff      String
+  kmTraveled   String?
+  driverId     Int?
+  riderId      Int?
+  vehicleId    Int?
+  amount       String
+  latitude     Float
+  longitude    Float
+  carType      Cartype        @default(STANDARD)
+  status       Tripstatus?    @default(CREATED)
+  ratings      Ratings        @default(ONE)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  transactions Transactions[]
+  driver       Driver?         @relation(fields: [driverId], references: [id])
+  rider        Rider?          @relation(fields: [riderId], references: [id])
+  vehicle      Vehicle?        @relation(fields: [vehicleId], references: [id])
+}
+
+model Wallets {
+  id            Int      @id @default(autoincrement())
+  riderId       Int?         @unique
+  driverId      Int?         @unique
+  walletAddress String?
+  walletBalance String?
+  deposited     Int?         @default(0)
+  withdrawn     Int?         @default(0)
+  noOfTrans     Int?         @default(0)
+  totalFares    Int?         @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  driver        Driver?   @relation(fields: [driverId], references: [id])
+  rider         Rider?    @relation(fields: [riderId], references: [id])
+}
+
+model Transactions {
+  id          Int               @id @default(autoincrement())
+  reference   String                @unique
+  description String
+  amount      String
+  type        Transactiontype
+  status      Transactionstatus     @default(PENDING)
+  riderId     Int?
+  driverId    Int?
+  tripId      Int?
+  from        String?
+  to          String?
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  driver      Driver?            @relation(fields: [driverId], references: [id])
+  rider       Rider?             @relation(fields: [riderId], references: [id])
+  trip        Trips?             @relation(fields: [tripId], references: [id])
+}
+
+model FundWallet {
+  id          Int               @id @default(autoincrement())
+  channel     String
+  service     String
+  riderId     Int
+  amount      String
+  transRef    String                @unique
+  status      Fundaccountstatus @default(PROCESSING)
+  approved    Boolean           @default(false)
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  rider       Rider             @relation(fields: [riderId], references: [id])
+
+}
+
+model Vehicle {
+  id          Int      @id @default(autoincrement())
+  make        String
+  model       String
+  year        String
+  color       String
+  plateNumber String
+  vehicleReg  Bytes?
+  vehincleIns Bytes?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  trips       Trips[]
+}
+
+model BankAccount {
+  id            Int      @id @default(autoincrement())
+  bankcode      String
+  accountNumber String
+  bankName      String
+  accountName   String
+  riderId       Int?
+  driverId      Int?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Location {
+  id          Int               @id @default(autoincrement())
+  riderId     Int?              @unique
+  driverId    Int?              @unique
+  city        String
+  region      String
+  country     String
+  latitude    Float
+  longitude   Float
+  available   Boolean           @default(false)
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+  rider       Rider?            @relation(fields: [riderId], references: [id])
+  driver      Driver?           @relation(fields: [driverId], references: [id])
+
+}
+
+model Userverification {
+  id           Int    @id @default(autoincrement())
+  userId       Int    @unique
+  token        Int
+  uniqueString String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Passwordreset {
+  id          Int    @id @default(autoincrement())
+  userId      Int    @unique
+  token       Int
+  resetString String @unique
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Emailverificationtoken {
+  id          Int    @id @default(autoincrement())
+  references  String     @unique
+  riderEmail  String
+  // rider       Rider      @relation(fields: [riderId], references: [id])
+  token       String
+  requestIp   String
+  expiresAt   DateTime
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+}
+
+enum Role {
+  RIDER
+  DRIVER
+  ADMIN
+}
+
+enum Ratings {
+  ONE
+  TWO
+  THREE
+  FOUR
+  FIVE
+}
+
+enum Userstatus {
+  ACTIVE
+  INACTIVE
+  BLOCKED
+}
+
+enum Tripstatus {
+  CREATED
+  ONGOING
+  CANCELLED
+  STOPPED
+  COMPLETED
+}
+
+enum Fundaccountstatus {
+  PROCESSING
+  SUCCESSFUL
+  DECLINED
+}
+
+enum Transactiontype {
+  WITHDRAW
+  DEPOSIT
+  PAYMENT
+  TRANSFER
+}
+
+enum Transactionstatus {
+  PENDING
+  COMPLETE
+  FAIL
+}
+
+enum Cartype {
+  STANDARD
+  DIAMOND
+}

@@ -1,0 +1,843 @@
+PEPP-RIDER:ERROR [May-13-2023 15:18:00] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique(
+Can't reach database server at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`.
+PEPP-RIDER:ERROR [May-13-2023 15:18:11] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique(
+Can't reach database server at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`.
+PEPP-RIDER:ERROR [May-13-2023 15:18:31] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:19:58] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique(
+Can't reach database server at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`.
+PEPP-RIDER:ERROR [May-13-2023 15:22:32] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:22:46] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:23:07] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:24:24] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:25:36] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: undefined,
+         ?   id?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:26:41] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: 5
+             ~~~~~~~
+           }
+         })
+
+Unknown arg `riderId` in where.riderId for type WalletsWhereUniqueInput. Did you mean `id`? Available args:
+type WalletsWhereUniqueInput {
+  id?: Int
+}
+
+
+PEPP-RIDER:ERROR [May-13-2023 15:29:09] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+             riderId: 5
+             ~~~~~~~
+           }
+         })
+
+Unknown arg `riderId` in where.riderId for type WalletsWhereUniqueInput. Did you mean `id`? Available args:
+type WalletsWhereUniqueInput {
+  id?: Int
+}
+
+
+PEPP-RIDER:ERROR [May-13-2023 15:29:28] Error Initiating PayStack Transaction: StatusCodeError: 400 - {"status":false,"message":"Email Address is required"}
+PEPP-RIDER:ERROR [May-13-2023 15:32:39] Error Initiating PayStack Transaction: StatusCodeError: 400 - {"status":false,"message":"Email Address is required"}
+PEPP-RIDER:ERROR [May-13-2023 15:45:54] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.wallets.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:15:37
+
+  12 }
+  13 
+  14 static async findRiderWallet(id) {
+→ 15     return await prisma.wallets.findUnique({
+           where: {
+         ?   riderId?: Int,
+         ?   id?: Int,
+         ?   driverId?: Int,
+         ?   tripId?: Int
+           }
+         })
+
+Argument where of type WalletsWhereUniqueInput needs at least one argument. Available args are listed in green.
+
+Note: Lines with ? are optional.
+
+PEPP-RIDER:ERROR [May-13-2023 15:47:10] Error Initiating PayStack Transaction: StatusCodeError: 400 - {"status":false,"message":"Email Address is required"}
+PEPP-RIDER:ERROR [May-13-2023 15:48:48] Error Initiating PayStack Transaction: Error: 
+Invalid `prisma.fundWallet.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/FiatService.js:24:29
+
+  21 email: user.email
+  22 })
+  23 
+→ 24 await prisma.fundWallet.create({
+       channel: 'fiat',
+       ~~~~~~~
+       service: 'paystack',
+       ~~~~~~~
+       riderId: 5,
+       ~~~~~~~
+       amount: '2000',
+       ~~~~~~
+       transRef: 'PAYPEPPZ2GUABH4MGBDNONLHOEV',
+       ~~~~~~~~
+     + data: FundWalletCreateInput | FundWalletUncheckedCreateInput
+     })
+
+Unknown arg `channel` in channel for type FundWallet. Did you mean `data`?
+Unknown arg `service` in service for type FundWallet. Did you mean `select`?
+Unknown arg `riderId` in riderId for type FundWallet. Did you mean `data`?
+Unknown arg `amount` in amount for type FundWallet. Did you mean `select`?
+Unknown arg `transRef` in transRef for type FundWallet. Did you mean `data`?
+Argument data is missing.
+
+Note: Lines with + are required
+
+PEPP-RIDER:ERROR [May-13-2023 20:49:27] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 20:54:01] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 20:56:51] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:07:47] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:09:47] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:10:15] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:27:34] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:48:53] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 21:57:10] Error Initiating PayStack Transaction: TypeError: Cannot destructure property 'riderId' of '(intermediate value)' as it is null.
+PEPP-RIDER:ERROR [May-13-2023 21:59:14] Error Initiating PayStack Transaction: TypeError: Cannot destructure property 'riderId' of '(intermediate value)' as it is null.
+PEPP-RIDER:ERROR [May-13-2023 21:59:43] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in zmqobhodwk
+PEPP-RIDER:ERROR [May-13-2023 21:59:49] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in zmqobhodwk
+PEPP-RIDER:ERROR [May-13-2023 22:00:52] Error Initiating PayStack Transaction: TypeError: Cannot destructure property 'riderId' of '(intermediate value)' as it is null.
+PEPP-RIDER:ERROR [May-13-2023 22:01:06] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 22:04:27] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 22:05:24] Error Initiating PayStack Transaction: TypeError: Cannot use 'in' operator to search for 'reference' in PAYPEPPBPE2DA4O6YEZ1M0BL7C5
+PEPP-RIDER:ERROR [May-13-2023 22:42:41] Error Initiating PayStack Transaction: ReferenceError: reject is not defined
+PEPP-RIDER:ERROR [May-14-2023 17:41:47] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.rider.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:35
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.rider.create({
+              data: {
+                reference: 'PAYPEPPPJU0EU44BO7W0A2G4VI5',
+                ~~~~~~~~~
+                description: 'Wallet Funded',
+                ~~~~~~~~~~~
+                amount: '2000',
+                ~~~~~~
+                type: 'DEPOSIT',
+                ~~~~
+                status: 'COMPLETE',
+                        ~~~~~~~~~~
+                riderId: 9
+                ~~~~~~~
+              }
+            })
+
+Unknown arg `reference` in data.reference for type RiderCreateInput. Did you mean `select`? Available args:
+type RiderCreateInput {
+  firstName?: String | Null
+  lastName?: String | Null
+  email?: String | Null
+  mobile?: String | Null
+  password?: String | Null
+  peppTag?: String | Null
+  homeAddress?: String | Null
+  workAddress?: String | Null
+  emailVerified?: Boolean
+  mobileVerified?: Boolean
+  enabled2FA?: Boolean
+  enabledGoogle?: Boolean
+  role?: Role
+  ratings?: Ratings
+  status?: Userstatus
+  noOfRides?: Int | Null
+  kmTraveled?: Int | Null
+  createdAt?: DateTime
+  updatedAt?: DateTime
+  transactions?: TransactionsCreateNestedManyWithoutRiderInput
+  trips?: TripsCreateNestedManyWithoutRiderInput
+  wallets?: WalletsCreateNestedManyWithoutRiderInput
+  fundWallet?: FundWalletCreateNestedManyWithoutRiderInput
+}
+Unknown arg `description` in data.description for type RiderCreateInput. Did you mean `transactions`? Available args:
+type RiderCreateInput {
+  firstName?: String | Null
+  lastName?: String | Null
+  email?: String | Null
+  mobile?: String | Null
+  password?: String | Null
+  peppTag?: String | Null
+  homeAddress?: String | Null
+  workAddress?: String | Null
+  emailVerified?: Boolean
+  mobileVerified?: Boolean
+  enabled2FA?: Boolean
+  enabledGoogle?: Boolean
+  role?: Role
+  ratings?: Ratings
+  status?: Userstatus
+  noOfRides?: Int | Null
+  kmTraveled?: Int | Null
+  createdAt?: DateTime
+  updatedAt?: DateTime
+  transactions?: TransactionsCreateNestedManyWithoutRiderInput
+  trips?: TripsCreateNestedManyWithoutRiderInput
+  wallets?: WalletsCreateNestedManyWithoutRiderInput
+  fundWallet?: FundWalletCreateNestedManyWithoutRiderInput
+}
+Unknown arg `amount` in data.amount for type RiderCreateInput. Did you mean `email`? Available args:
+type RiderCreateInput {
+  firstName?: String | Null
+  lastName?: String | Null
+  email?: String | Null
+  mobile?: String | Null
+  password?: String | Null
+  peppTag?: String | Null
+  homeAddress?: String | Null
+  workAddress?: String | Null
+  emailVerified?: Boolean
+  mobileVerified?: Boolean
+  enabled2FA?: Boolean
+  enabledGoogle?: Boolean
+  role?: Role
+  ratings?: Ratings
+  status?: Userstatus
+  noOfRides?: Int | Null
+  kmTraveled?: Int | Null
+  createdAt?: DateTime
+  updatedAt?: DateTime
+  transactions?: TransactionsCreateNestedManyWithoutRiderInput
+  trips?: TripsCreateNestedManyWithoutRiderInput
+  wallets?: WalletsCreateNestedManyWithoutRiderInput
+  fundWallet?: FundWalletCreateNestedManyWithoutRiderInput
+}
+Unknown arg `type` in data.type for type RiderCreateInput. Did you mean `role`? Available args:
+type RiderCreateInput {
+  firstName?: String | Null
+  lastName?: String | Null
+  email?: String | Null
+  mobile?: String | Null
+  password?: String | Null
+  peppTag?: String | Null
+  homeAddress?: String | Null
+  workAddress?: String | Null
+  emailVerified?: Boolean
+  mobileVerified?: Boolean
+  enabled2FA?: Boolean
+  enabledGoogle?: Boolean
+  role?: Role
+  ratings?: Ratings
+  status?: Userstatus
+  noOfRides?: Int | Null
+  kmTraveled?: Int | Null
+  createdAt?: DateTime
+  updatedAt?: DateTime
+  transactions?: TransactionsCreateNestedManyWithoutRiderInput
+  trips?: TripsCreateNestedManyWithoutRiderInput
+  wallets?: WalletsCreateNestedManyWithoutRiderInput
+  fundWallet?: FundWalletCreateNestedManyWithoutRiderInput
+}
+Argument status: Provided value 'COMPLETE' of type String on prisma.createOneRider is not a Userstatus.
+→ Possible values: Userstatus.ACTIVE, Userstatus.INACTIVE, Userstatus.BLOCKED
+Unknown arg `riderId` in data.riderId for type RiderCreateInput. Did you mean `role`? Available args:
+type RiderCreateInput {
+  firstName?: String | Null
+  lastName?: String | Null
+  email?: String | Null
+  mobile?: String | Null
+  password?: String | Null
+  peppTag?: String | Null
+  homeAddress?: String | Null
+  workAddress?: String | Null
+  emailVerified?: Boolean
+  mobileVerified?: Boolean
+  enabled2FA?: Boolean
+  enabledGoogle?: Boolean
+  role?: Role
+  ratings?: Ratings
+  status?: Userstatus
+  noOfRides?: Int | Null
+  kmTraveled?: Int | Null
+  createdAt?: DateTime
+  updatedAt?: DateTime
+  transactions?: TransactionsCreateNestedManyWithoutRiderInput
+  trips?: TripsCreateNestedManyWithoutRiderInput
+  wallets?: WalletsCreateNestedManyWithoutRiderInput
+  fundWallet?: FundWalletCreateNestedManyWithoutRiderInput
+}
+
+
+PEPP-RIDER:ERROR [May-14-2023 17:45:51] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: {
+               Balance: '4200.0000000'
+               ~~~~~~~
+             },
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Unknown arg `Balance` in data.walletBalance.Balance for type NullableStringFieldUpdateOperationsInput. Did you mean `select`? Available args:
+type NullableStringFieldUpdateOperationsInput {
+  set?: String | Null
+}
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 17:48:36] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 17:51:44] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 17:57:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 17:58:02] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: '10200.0000000',
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 18:03:36] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 18:06:28] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:08:03] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: '14200.0000000',
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 18:09:35] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:12:42] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 18:12:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:15:15] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: '18200.0000000',
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 18:15:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:24:31] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:24:36] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:35:14] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: '20200.0000000',
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 18:42:24] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:43:18] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update({
+           where: {
+             riderId: 9
+           },
+           data: {
+             walletBalance: '22200.0000000',
+             deposited: NaN,
+                        ~~~
+             noOfTrans: NaN
+                        ~~~
+           }
+         })
+
+Argument deposited: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+Argument noOfTrans: Got invalid value NaN on prisma.updateOneWallets. Provided Float, expected Int or NullableIntFieldUpdateOperationsInput or Null.
+
+
+PEPP-RIDER:ERROR [May-14-2023 18:45:23] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:48:30] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:48:30] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 18:54:29] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 18:54:30] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:54:32] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.transactions.create()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/TransactionService.js:8:42
+
+  5 class TransactionService {
+  6     
+  7     static async createTransaction(newTransaction) {
+→ 8         return await prisma.transactions.create(
+Unique constraint failed on the fields: (`reference`)
+PEPP-RIDER:ERROR [May-14-2023 18:54:43] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:57:20] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 18:57:25] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.wallets.update()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WalletService.js:39:37
+
+  36 }
+  37 
+  38 static async updateWallet(id, data) {
+→ 39     return await prisma.wallets.update(
+An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+PEPP-RIDER:ERROR [May-14-2023 19:00:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:03:15] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:03:28] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:05:49] Error Initiating PayStack Transaction: TypeError: Cannot read properties of null (reading 'id')
+PEPP-RIDER:ERROR [May-14-2023 19:06:34] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:09:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:12:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:14:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:15:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:15:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:16:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:16:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:16:39] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:16:54] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:17:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:18:09] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:21:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:24:18] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:27:29] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 19:30:50] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:11:59] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:12:31] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:13:09] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:13:24] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:14:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:14:18] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:14:56] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-14-2023 20:15:43] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:02:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:12:30] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:13:04] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:13:41] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:13:57] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:14:36] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:14:51] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 13:15:29] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:11:11] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:11:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:12:01] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:12:17] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:12:54] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 14:13:42] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:07:18] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:07:51] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:08:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:08:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:09:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:09:38] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:10:16] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 15:11:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:04:52] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:05:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:06:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:06:14] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:06:53] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:07:09] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:07:47] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 16:08:33] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 17:02:38] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.fundWallet.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WebhookService.js:16:47
+
+  13 static async verifyPaystackDeposit(verifiedData) {
+  14   if (verifiedData.event === 'charge.success') {
+  15      const transactionReference =  verifiedData.data.reference;
+→ 16      const wallet = await prisma.fundWallet.findUnique(
+Can't reach database server at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`.
+PEPP-RIDER:ERROR [May-16-2023 18:01:30] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:01:42] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:02:21] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:02:36] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:03:14] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:04:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:14:37] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 18:15:12] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:12:10] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:12:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:13:23] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:13:41] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:14:18] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:14:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 19:15:12] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:09:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:10:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:10:43] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:11:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:11:37] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:11:53] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:12:31] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 20:13:17] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:02:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:03:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:03:38] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:03:55] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:04:33] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:04:49] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:05:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-16-2023 23:06:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:01:14] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:01:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:02:06] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:02:21] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:03:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:03:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:14:20] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 00:14:55] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:01:24] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:11:52] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:12:25] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:13:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:13:18] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:13:57] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:14:12] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 01:14:50] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:09:21] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:09:56] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:10:32] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:10:49] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:11:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:11:43] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:12:21] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 02:13:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:06:46] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:07:23] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:07:57] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:08:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:08:52] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:09:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:09:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 03:10:31] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:04:17] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:04:51] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:05:28] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:05:44] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:06:23] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:06:38] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:07:16] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 04:08:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:02:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:02:48] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:03:24] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:03:40] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:04:19] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:04:34] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:05:12] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 05:05:58] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:01:06] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:01:19] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:01:58] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:02:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:02:51] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:03:38] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:14:08] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 06:14:43] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:01:16] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:11:39] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:12:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:12:50] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:13:06] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:13:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:14:00] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 07:14:38] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:09:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:09:42] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:10:17] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:10:35] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:11:12] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:11:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:12:05] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 08:12:51] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:06:37] Error Verifying Organisation PayStack Deposit: Error: 
+Invalid `prisma.fundWallet.findUnique()` invocation in
+/Users/jesudarajeminusi/ConvexityProjs/pepp/pepp-rider-service/src/services/WebhookService.js:16:47
+
+  13 static async verifyPaystackDeposit(verifiedData) {
+  14   if (verifiedData.event === 'charge.success') {
+  15      const transactionReference =  verifiedData.data.reference;
+→ 16      const wallet = await prisma.fundWallet.findUnique(
+Can't reach database server at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ec2-3-234-204-26.compute-1.amazonaws.com`:`5432`.
+PEPP-RIDER:ERROR [May-17-2023 09:07:15] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:07:45] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:08:02] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:08:40] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:08:56] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:09:37] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 09:10:22] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:03:54] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:04:27] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:05:07] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:05:19] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:05:59] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:06:13] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:06:52] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
+PEPP-RIDER:ERROR [May-17-2023 10:07:39] Error Verifying Organisation PayStack Deposit: TypeError: Cannot read properties of null (reading 'riderId')
